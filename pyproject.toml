@@ -12,7 +12,8 @@ cython=">=3.0.0"
 pyarrow= ">=14.0.0"
 pandas = {version=">=2.1.2", extras=["performance", "excel", "feather", "parquet", "output-formatting","computation","consortium-standard"]}
 scraperwiki = { git = "git@github.com:openaustralia/scraperwiki-python.git", branch="morph_defaults" }
-lxml = { git = "https://github.com/lxml/lxml.git" }
+lxml = { git = "git@github.com:lxml/lxml.git", branch = "master"}
+cssselect = "^1.2.0"
 beautifulsoup4 = "^4.12.3"
 
 [tool.poetry.dev-dependencies]
